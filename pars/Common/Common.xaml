@@ -1,0 +1,209 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:po="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    xmlns:skinmanager="clr-namespace:Syncfusion.SfSkinManager;assembly=Syncfusion.SfSkinManager.WPF"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <Color x:Key="DropShadow.Static.Background">#CC000000</Color>
+
+    <DropShadowEffect x:Key="Default.ShadowDepth1"
+                      BlurRadius="4" 
+                      ShadowDepth="0" 
+                      Direction="270" 
+                      Color="{StaticResource DropShadow.Static.Background}" 
+                      Opacity="0.42" 
+                      RenderingBias="Performance" 
+                      po:Freeze="True" />
+    <DropShadowEffect x:Key="Default.ShadowDepth2" 
+                      BlurRadius="6" 
+                      ShadowDepth="1" 
+                      Direction="270"
+                      Color="{StaticResource DropShadow.Static.Background}" 
+                      Opacity="0.42" 
+                      RenderingBias="Performance"
+                      po:Freeze="True" />
+    <DropShadowEffect x:Key="Default.ShadowDepth3" 
+                      BlurRadius="8"
+                     ShadowDepth="0" 
+                      Direction="270"
+                      Color="{StaticResource DropShadow.Static.Background}" 
+                      Opacity="0.42" 
+                      RenderingBias="Performance"
+                      po:Freeze="True" />
+    <DropShadowEffect x:Key="Default.ShadowDepth4" 
+                      BlurRadius="16" 
+                      ShadowDepth="7" 
+                      Direction="270"
+                      Color="{StaticResource DropShadow.Static.Background}" 
+                      Opacity="0.17"
+                      RenderingBias="Performance" 
+                      po:Freeze="True" />
+
+    <!--Used this shadow for ribbon DropDownButton popup in implemented themes-->
+    <DropShadowEffect x:Key="Default.ShadowDepth5" 
+                     BlurRadius="64" 
+                      ShadowDepth="0"
+                      Direction="270"
+                      Color="{StaticResource DropShadow.Static.Background}" 
+                      Opacity="0.42" 
+                      RenderingBias="Performance" 
+                      po:Freeze="True" />
+
+    <!--Used this shadow for NavigationDrawer popup in implemented themes-->
+    <DropShadowEffect x:Key="Default.ShadowDepth6"
+                      BlurRadius="14" 
+                      ShadowDepth="4.5"
+                      Color="{StaticResource DropShadow.Static.Background}" 
+                      Opacity=".42" 
+                      RenderingBias="Performance" 
+                      po:Freeze="True" />
+
+    <!--Used for MS Button, ComboBox(Non-editable mode), CheckBox, RadioButton, Hyperlink, slider controls-->
+
+<sys:Double x:Key="ParsLight.HeaderTextStyle">17</sys:Double>
+<sys:Double x:Key="ParsLight.SubHeaderTextStyle">14</sys:Double>
+<sys:Double x:Key="ParsLight.TitleTextStyle">15</sys:Double>
+<sys:Double x:Key="ParsLight.SubTitleTextStyle">14</sys:Double>
+<sys:Double x:Key="ParsLight.BodyTextStyle">14</sys:Double>
+<sys:Double x:Key="ParsLight.CaptionText">12</sys:Double>
+<FontFamily x:Key="ParsLight.ThemeFontFamily">Roboto</FontFamily> 
+<FontWeight x:Key="ParsLight.FontWeightNormal">Normal</FontWeight> 
+<FontWeight x:Key="ParsLight.FontWeightMedium">Medium</FontWeight> 
+<Thickness x:Key="ParsLight.BorderThickness">0,0,0,0</Thickness> 
+	<Thickness x:Key="ParsLight.BorderThickness1">1</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness2">2</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness0001">0,0,0,1</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness0002">0,0,0,2</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness1000">1,0,0,0</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness0100">0,1,0,0</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness0010">0,0,1,0</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness1110">1,1,1,0</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness1101">1,1,0,1</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness1011">1,0,1,1</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness0111">0,1,1,1</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness0011">0,0,1,1</Thickness>
+	<Thickness x:Key="ParsLight.BorderThickness1112">1,1,1,2</Thickness>
+<Thickness x:Key="ParsLight.ThemeBorderThicknessVariant1">1,1,1,1</Thickness> 
+<Thickness x:Key="ParsLight.ThemeBorderThicknessVariant2">1,1,1,1</Thickness> 
+<Thickness x:Key="ParsLight.FocusMargin">2,2,2,2</Thickness> 
+<sys:Double x:Key="ParsLight.StrokeThickness">0</sys:Double>
+	<sys:Double x:Key="ParsLight.StrokeThickness1">1</sys:Double>
+	<sys:Double x:Key="ParsLight.StrokeThickness2">2</sys:Double>
+<DoubleCollection x:Key="ParsLight.StrokeDashArray">1 2</DoubleCollection> 
+<CornerRadius x:Key="ParsLight.ThemeCornerRadiusVariant1">0,0,0,0</CornerRadius> 
+<CornerRadius x:Key="ParsLight.ThemeCornerRadiusVariant2">0,0,0,0</CornerRadius> 
+<CornerRadius x:Key="ParsLight.CornerRadius2">2,2,2,2</CornerRadius> 
+<CornerRadius x:Key="ParsLight.CornerRadius4">4,4,4,4</CornerRadius> 
+<CornerRadius x:Key="ParsLight.CornerRadius6">6,6,6,6</CornerRadius> 
+<CornerRadius x:Key="ParsLight.CornerRadius7">7,7,7,7</CornerRadius> 
+<CornerRadius x:Key="ParsLight.CornerRadius8">8,8,8,8</CornerRadius> 
+	<sys:Double x:Key="TouchMode.MinHeight">32</sys:Double>
+	<sys:Double x:Key="TouchMode.MinWidth">32</sys:Double>
+	<sys:Double x:Key="TouchMode.MinSize">24</sys:Double>
+<sys:Double x:Key="ParsLight.MinHeight">24</sys:Double>
+	<sys:Double x:Key="ParsLight.MinHeight1">24</sys:Double>
+<sys:Double x:Key="ParsLight.IconPanelSize">32</sys:Double>
+    <Style x:Key="KeyboardFocusVisualStyle">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Border Margin="-3"
+                            SnapsToDevicePixels="True"
+                            CornerRadius="{StaticResource ParsLight.CornerRadius6}"
+                            BorderThickness="{StaticResource ParsLight.BorderThickness2}"
+                            BorderBrush="#E4000000">
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--Used for MS List type controls-->
+    <Style x:Key="CheckKeyboardFocusVisualStyle">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Border Margin="-3,-2,-2,-2"
+                            SnapsToDevicePixels="True"
+                            CornerRadius="{StaticResource ParsLight.CornerRadius4}"
+                            BorderThickness="{StaticResource ParsLight.BorderThickness2}"
+                            BorderBrush="#E4000000">
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--Used for MS DataGrid, Expander type controls-->
+    <Style x:Key="FlatKeyboardFocusVisualStyle">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Border SnapsToDevicePixels="True"
+                            BorderThickness="{StaticResource ParsLight.BorderThickness2}"
+                            BorderBrush="#E4000000" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--Used for MS Rounded button type controls-->
+    <Style x:Key="CircleKeyboardFocusVisualStyle">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Border Margin="-3"
+                            SnapsToDevicePixels="True"
+                            BorderThickness="{StaticResource ParsLight.BorderThickness2}"
+                            BorderBrush="#E4000000"
+                            CornerRadius="100">
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--Used for MS Corner Rounded button type controls-->
+    <Style x:Key="CurveKeyboardFocusVisualStyle">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Border SnapsToDevicePixels="True"
+                            CornerRadius="{StaticResource ParsLight.CornerRadius4}"
+                            BorderThickness="{StaticResource ParsLight.BorderThickness2}"
+                            BorderBrush="#E4000000" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <Style x:Key="DottedKeyboardFocusVisualStyle">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Rectangle Stroke="#E4000000"
+                               StrokeThickness="{StaticResource ParsLight.StrokeThickness1}" 
+                               StrokeDashArray="{StaticResource ParsLight.StrokeDashArray}"
+                               SnapsToDevicePixels="true"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="DottedCircleKeyboardFocusVisualStyle">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Rectangle Stroke="#E4000000"
+                               StrokeThickness="{StaticResource ParsLight.StrokeThickness1}" 
+                               StrokeDashArray="{StaticResource ParsLight.StrokeDashArray}"
+                               SnapsToDevicePixels="true"
+                               RadiusX="100"
+                               RadiusY="100"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
